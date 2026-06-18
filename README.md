@@ -38,10 +38,15 @@ in your browser.
 
 # Project Structure
 ticktrack
+
 │
 ├── index.html
+
 ├── style.css
+
 └── script.js
+
+
 # Learning Outcomes
 This project demonstrates:
 
