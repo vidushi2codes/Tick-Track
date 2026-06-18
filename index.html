@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>TickTrack</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<body>
+
+<video autoplay muted loop id="bg-video">
+  <source src="bgvideo.mp4" type="video/mp4">
+</video>
+
+<div class="sparkles"></div>
+
+<div class="container">
+
+<h1>TickTrack</h1>
+<p class="tagline">Stay organized. Stay productive.</p>
+
+<div class="task-input">
+
+<input type="text" id="taskInput" placeholder="Add a task">
+
+<input type="datetime-local" id="deadline">
+
+<button id="addTaskBtn">Add</button>
+
+</div>
+
+<ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
